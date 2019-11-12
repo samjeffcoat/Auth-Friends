@@ -6,8 +6,10 @@ class Login extends React.Component {
     return (
       <div>
         <form>
+          <h2>Please Log In </h2>
           <input type="text" name="username" />
           <input type="password" name="password" />
+          <button>Sign In</button>
         </form>
       </div>
     );
